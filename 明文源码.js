@@ -1,7 +1,7 @@
 
 import { connect } from "cloudflare:sockets";
 
-let password = '';
+let password = '0101623';
 let proxyIP = '';
 let sub = ''; 
 let subConverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假节点信息防泄露
@@ -23,7 +23,12 @@ let go2Socks5s = [
 	'*cloudatacdn.com',
 	'*.loadshare.org',
 ];
-let addresses = [];
+let addresses = [
+	'162.159.140.216:443',
+	'162.159.140.216:2096',
+	'185.16.110.24:2053',
+	'icook.hk',
+];
 let addressesapi = [];
 let addressescsv = [];
 let DLS = 8;
